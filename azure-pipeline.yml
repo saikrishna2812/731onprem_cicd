@@ -6,7 +6,7 @@ pool:
  vmImage: 'ubuntu-latest'
 
 variables:
-- group: Talend Variables
+- group: variables
 - name: project_name
   value: 'CICD'
 - name: artifact_name
